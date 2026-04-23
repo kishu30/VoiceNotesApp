@@ -8,9 +8,7 @@ public class TranscriptionService : ITranscriptionService
     {
         if (file == null || file.Length == 0)
             throw new Exception("Invalid file");
-
-        //var apiKey = "d7dbf383432ddde25b718067213809d6244ae802"; 
-        var apiKey = "";
+        var apiKey = ""; // use te api key from the email
         using var stream = file.OpenReadStream();
 
         var client = new HttpClient();
