@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, sans-serif;
+  background: linear-gradient(180deg, #eef2f7 0%, #f8fafc 100%);
+  color: #1e293b;
+}
+
+/* Page wrapper */
+.page {
+  min-height: 100vh;
+  padding: 20px 12px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Main container */
+.container {
+  width: 100%;
+  max-width: 420px;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Header */
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+/* Section */
+.notes-section {
+  margin-top: 6px;
+}
+
+.section-title {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #334155;
+}
+
+/* Inner cards */
+.card {
+  background: #f1f5f9;
+  padding: 12px 12px 12px 12px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #e2e8f0;
+}
+
+/* Recorder */
+.recorder-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+/* Buttons */
+.record-button {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  flex: 1;
+}
+
+.recording {
+  background-color: #dc2626;
+}
+
+.not-recording {
+  background-color: #2563eb;
+}
+
+.status {
+  font-size: 12px;
+  color: #64748b;
+}
+
+/* Textarea */
+.textarea {
+  width: 100%;
+  min-height: 100px;
+  border-radius: 8px;
+  border: 1px solid #cbd5f5;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 6px;
+  font-size: 14px;
+  resize: none;
+  background: #ffffff;
+}
+
+/* Save button */
+.save-button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: #16a34a;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Notes list */
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 6px; /* reduced */
+}
+
+/* 🔥 KEY FIX HERE */
+.note-card {
+  background: #ffffff;
+  padding: 4px 12px 10px 12px; /* 👈 TOP reduced */
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+}
+
+/* Text */
+.note-text {
+  font-size: 14px;
+  margin: 0 0 4px 0; /* remove extra top margin */
+  line-height: 1.4;
+}
+
+/* Timestamp */
+.timestamp {
+  font-size: 11px;
+  color: #64748b;
+}

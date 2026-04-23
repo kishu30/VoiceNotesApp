@@ -1,0 +1,6 @@
+@VoiceNotesApi_HostAddress = http://localhost:5069
+
+GET {{VoiceNotesApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

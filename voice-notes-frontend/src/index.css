@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, sans-serif;
+  background: #f4f6f8;
+  color: #1e293b;
+}
+
+/* Layout */
+.page {
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+/* Typography */
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.section-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+/* Card */
+.card {
+  background: #fff;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  margin-bottom: 20px;
+}
+
+/* Recorder */
+.recorder-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.record-button {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.recording {
+  background-color: #e53935;
+}
+
+.not-recording {
+  background-color: #2563eb;
+}
+
+.status {
+  font-size: 13px;
+  color: #666;
+}
+
+/* Textarea */
+.textarea {
+  width: 100%;
+  min-height: 100px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  resize: none;
+}
+
+/* Save Button */
+.save-button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: #16a34a;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Notes */
+.grid {
+  display: grid;
+  gap: 10px;
+}
+
+.note-card {
+  background: #fff;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.note-text {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.timestamp {
+  font-size: 11px;
+  color: #888;
+}
