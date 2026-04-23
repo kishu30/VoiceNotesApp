@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "73Xs1UBgd5uLFhf9NfVmEjS9UJDphCWb36IM/D5Ybuc=",
+  "Source": "VoiceNotesApi",
+  "BasePath": "_content/VoiceNotesApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
