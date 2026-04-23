@@ -1,5 +1,0 @@
-mkdir -p Domain/Entities
-mkdir -p Application/Interfaces
-mkdir -p Application/Services
-mkdir -p Infrastructure/Data
-mkdir -p Infrastructure/Repositories
