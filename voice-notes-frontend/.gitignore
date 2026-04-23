@@ -1,24 +1,60 @@
-# Logs
-logs
-*.log
+############################
+# NODE / FRONTEND
+############################
+node_modules/
+dist/
+dist-ssr/
+*.local
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+############################
+# .NET BACKEND
+############################
+bin/
+obj/
+*.user
+*.lock.json
+*.vs/
+*.suo
+*.userprefs
 
-# Editor directories and files
+############################
+# DATABASE
+############################
+*.db
+*.sqlite
+*.sqlite3
+
+############################
+# ENV FILES
+############################
+.env
+.env.*
+
+############################
+# OS FILES
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# IDE
+############################
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+.idea/
+
+############################
+# LOGS
+############################
+logs/
+*.log
+
+############################
+# BUILD / TEMP
+############################
+*.tmp
+*.temp
