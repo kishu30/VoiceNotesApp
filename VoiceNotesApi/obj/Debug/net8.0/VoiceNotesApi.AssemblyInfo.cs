@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VoiceNotesApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c71be2e0a5cc142f479940ac7effce1d7e1a6b2")]
 [assembly: System.Reflection.AssemblyProductAttribute("VoiceNotesApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VoiceNotesApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -9,8 +9,8 @@ public class TranscriptionService : ITranscriptionService
         if (file == null || file.Length == 0)
             throw new Exception("Invalid file");
 
-        var apiKey = "d7dbf383432ddde25b718067213809d6244ae802"; // 🔴 replace
-
+        //var apiKey = "d7dbf383432ddde25b718067213809d6244ae802"; 
+        var apiKey = "";
         using var stream = file.OpenReadStream();
 
         var client = new HttpClient();
